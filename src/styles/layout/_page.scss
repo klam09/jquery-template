@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    @include flex();
+    font-family: $font-family;
+    min-height: 100%;;
+
+    @include lang(tc) {
+        font-family: $font-family-tc;
+    }
+
+    @include lang(sc) {
+        font-family: $font-family-sc;
+    }
+
+    > aside {
+        flex: 0 0 auto;
+        z-index: 1;
+    }
+
+    > #root {
+        @include flex($flex-direction: column);
+        flex: 1;
+
+        > header,
+        > footer {
+            flex: 0 0 auto;
+        }
+
+        > main {
+            flex: 1 0 auto;
+        }
+    }
+}

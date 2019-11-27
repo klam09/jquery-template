@@ -1,0 +1,170 @@
+// lang
+$languages: (
+    en: ('en'),
+    tc: ('zh-Hant'),
+    sc: ('zh-Hans')
+) !default;
+$default-lang: en !default;
+
+$breakpoints: (
+    sm: 0,
+    md: 768px,
+    lg: 1200px,
+);
+
+$container-widths: (
+    sm: 480px,
+    md: 1024px,
+    lg: 1440px,
+);
+
+$glutters: (
+    sm: 16px,
+    md: 16px,
+    lg: 24px,
+);
+
+$grid-columns: (
+    sm: 4,
+    md: 12,
+    lg: 12,
+);
+
+$font-family: Roboto, Arial, sans-serif;
+$font-family-tc: Roboto, Arial, sans-serif;
+$font-family-sc: Roboto, Arial, sans-serif;
+
+$colors: (
+    primary-red: #ef4123,
+    secondary-blue: #00a1e4,
+    black: #000,
+    dark: #333,
+    grey1: #555,
+    grey2: #777,
+    light-grey1: #999,
+    light-grey2: #ccc,
+    light-grey3: #e8e8e8,
+    light-grey4: #f1f3f4,
+    divider-grey: #ddd,
+    white: #fff,
+    bg: #eef1f1,
+);
+
+$typefaces: (
+    h1: (
+        sm: (
+            weight: 500,
+            size: 40px,
+            lineHeight: 1.2
+        )
+    ),
+    h2: (
+        sm: (
+            weight: 500,
+            size: 40px,
+            lineHeight: 1.188
+        )
+    ),
+    h3: (
+        sm: (
+            weight: 500,
+            size: 28px,
+            lineHeight: 1.214
+        )
+    ),
+    h4: (
+        sm: (
+            weight: 500,
+            size: 24px,
+            lineHeight: 1.209
+        )
+    ),
+    title1: (
+        sm: (
+            weight: 500,
+            size: 20px,
+            lineHeight: 1.2
+        )
+    ),
+    title2: (
+        sm: (
+            weight: 500,
+            size: 18px,
+            lineHeight: 1.167
+        )
+    ),
+    title3: (
+        sm: (
+            weight: 500,
+            size: 16px,
+            lineHeight: 1.209
+        )
+    ),
+    title4: (
+        sm: (
+            weight: 500,
+            size: 14px,
+            lineHeight: 1.143
+        )
+    ),
+    title5: (
+        sm: (
+            size: 14px,
+            lineHeight: 1.143
+        )
+    ),
+    body1: (
+        sm: (
+            size: 20px,
+            lineHeight: 1.2
+        )
+    ),
+    body2: (
+        sm: (
+            size: 18px,
+            lineHeight: 1.167
+        )
+    ),
+    body3: (
+        sm: (
+            size: 16px,
+            lineHeight: 1.188
+        )
+    ),
+    body4: (
+        sm: (
+            size: 14px,
+            lineHeight: 1.143
+        )
+    ),
+    caption1: (
+        sm: (
+            weight: 500,
+            size: 12px,
+            lineHeight: 1.167
+        )
+    ),
+    caption2: (
+        sm: (
+            weight: 400,
+            size: 12px,
+            lineHeight: 1.167
+        )
+    ),
+    link: (
+        sm: (
+            weight: 500,
+            size: 14px,
+            lineHeight: 1.143
+        )
+    ),
+    button: (
+        sm: (
+            size: 18px,
+            lineHeight: 1.223
+        )
+    ),
+);
+
+$transition-duration: .3s;
+$transition-timing-function: ease;

@@ -1,0 +1,22 @@
+@import '~@styles/abstracts.scss';
+
+.devtool {
+    @include fixed(0, 0, 0, 0);
+    background-color : #fff;
+    color            : #000;
+    padding          : 20px;
+    z-index          : 1000;
+
+    * {
+        user-select : auto;
+    }
+}
+
+.devtool-share-result-img {
+    @include fixed(0, 0, 0, 0);
+    z-index : 1000;
+
+    img {
+        @include size(auto, 100%);
+    }
+}
