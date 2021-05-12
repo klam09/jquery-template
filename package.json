@@ -28,7 +28,7 @@
         "numeral": "2.0.6",
         "regenerator-runtime": "^0.13.3",
         "select2": "^4.0.12",
-        "swiper": "4.2.6",
+        "swiper": "6.5.1",
         "webpack": "4.30.0"
     },
     "devDependencies": {
